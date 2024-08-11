@@ -5,16 +5,19 @@ import { Funcionamento } from "./pages/Funcionamento"
 import { Materiais } from "./pages/Materiais"
 import { Bibliografia } from "./pages/Bibliografia"
 import { Sobre } from "./pages/Sobre"
+import { Header } from "./Header"
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />
+    element: <Funcionamento />
   }
 ])
 
 export function App() {
   return (
-    <RouterProvider router={router} />
+    <div>
+    <Header />
+    <RouterProvider router={router} /></div>
   )
 }
