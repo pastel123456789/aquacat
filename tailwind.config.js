@@ -8,7 +8,8 @@ export default {
     colors:{
       'azull': '#022859',
       'blu': '#010D26',
-      'wht': '#FFFFFF'
+      'wht': '#FFFFFF',
+      'but': '#1A1E26'
 
     
     }
