@@ -1,4 +1,4 @@
-import gato from './assets/Cat.jpg'
+import gato from './assets/logo.png'
 
 export function Header() {
   return (

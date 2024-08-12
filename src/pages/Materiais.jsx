@@ -17,7 +17,7 @@ export function Materiais() {
             className="w-[320px] h-[200px] object-cover"
           />
           <p className="text-wht text-lg">
-            Placa Arduino: Um microcontrolador usado para prototipagem eletrônica.
+          Bomba de Água: Componente que movimenta a água no sistema.
           </p>
         </div>
         <div className="flex items-center space-x-4">
@@ -37,10 +37,10 @@ export function Materiais() {
             className="w-[370px] h-[400px] object-cover"
           />
           <p className="text-wht text-lg">
-            Bomba de Água: Componente que movimenta a água no sistema.
+          Placa Arduino: Um microcontrolador usado para prototipagem eletrônica.
           </p>
         </div>
-        {/* Espaçamento personalizado entre Bo e F */}
+        
         <div className="flex items-center space-x-4 mt-12">
           <img
             src={F}
