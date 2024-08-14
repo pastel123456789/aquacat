@@ -7,7 +7,7 @@ export function Funcionamento() {
       <div className='flex justify-center'>
       <section className="max-lg:flex-col flex items-center justify-center space-x-4">
         <img src={beb} alt="Bebedouro automático" className="max-lg:w-50 max-lg:h-50 max-w-sm h-96 object-cover mb-11" />
-        <p className="max-w-screen-sm text-wht mb-60 font-lexend">
+        <p className="max-w-screen-sm text-wht mb-60 font-lexend text-lg">
           O bebedouro automático contém um reservatório de água e um sensor. Quando o sensor detecta a presença do gato, ele liga a bomba que faz a água fluir de
            forma cíclica pelo bebedouro.
         </p>
