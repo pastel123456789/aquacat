@@ -8,13 +8,13 @@ import S from '../assets/sens.png';
 export function Materiais() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen bg-blu p-4">
-      <h1 className="text-wht text-4xl mb-8">Materiais</h1>
+      <h1 className="text-wht text-4xl mb-8 fonr font-lexend font-bold">Materiais</h1>
       <div className="flex flex-col space-y-8 w-full max-w-screen-lg">
         <div className="flex items-center space-x-4">
           <img
             src={Bo}
             alt="Placa Arduino"
-            className="w-[320px] h-[200px] object-cover"
+            className="max-lg:w-[80px] max-lg:h-[50px] w-[320px] h-[200px] object-cover"
           />
           <p className="text-wht text-lg">
           Bomba de Água: Componente que movimenta a água no sistema.
