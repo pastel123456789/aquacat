@@ -2,7 +2,7 @@ import beb from '../assets/be.png';
 
 export function Funcionamento() {
   return (
-    <div className="max-lg:max-w-500 flex flex-col items-center w-screen bg-blu">
+    <div className="max-lg:max-w-500 flex flex-col items-center w-screen h-screen bg-blu">
       <h1 className="text-wht text-4xl mb-20 mt-11 font-lexend font-bold">Funcionamento</h1>
       <div className='flex justify-center'>
       <section className="max-lg:flex-col flex items-center justify-center space-x-4">
