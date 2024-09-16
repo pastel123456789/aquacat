@@ -17,7 +17,7 @@ export function Materiais() {
             className="max-lg:w-[80px] max-lg:h-[50px] w-[320px] h-[200px] object-cover"
           />
           <p className="text-wht text-lg font-lexend font-bold">
-          Bomba de Água: Componente que movimenta a água no sistema.
+          Bomba de Água: Componente que movimenta a água no sistema. <br /> R$ 40.00
           </p>
         </div>
         <div className="flex items-center space-x-4">
@@ -27,7 +27,7 @@ export function Materiais() {
             className="w-[370px] h-[410px] object-cover"
           />
           <p className="text-wht text-lg font-lexend font-bold">
-            Bateria: Fonte de energia para alimentar o circuito.
+            Bateria: Fonte de energia para alimentar o circuito. <br /> R$ 39.99
           </p>
         </div>
         <div className="flex items-center space-x-4">
@@ -37,7 +37,7 @@ export function Materiais() {
             className="w-[370px] h-[400px] object-cover"
           />
           <p className="text-wht text-lg font-lexend font-bold">
-          Placa Arduino: Um microcontrolador usado para prototipagem eletrônica.
+          Placa Arduino: Um microcontrolador usado para prototipagem eletrônica. <br /> R$ 90.00
           </p>
         </div>
         
@@ -48,7 +48,7 @@ export function Materiais() {
             className="w-[380px] h-[420px] object-cover"
           />
           <p className="text-wht text-lg font-lexend font-bold">
-            Fio: Conecta os diferentes componentes do circuito.
+            Fio: Conecta os diferentes componentes do circuito. <br /> R$ 1.99
           </p>
         </div>
         <div className="flex items-center space-x-4">
@@ -58,7 +58,7 @@ export function Materiais() {
             className="w-[380px] h-[420px] object-cover"
           />
           <p className="text-wht text-lg font-lexend font-bold">
-            Protoboard: Placa de ensaio para montar circuitos eletrônicos.
+            Protoboard: Placa de ensaio para montar circuitos eletrônicos. <br /> R$ 10.00
           </p>
         </div>
         <div className="flex items-center space-x-4">
@@ -68,7 +68,7 @@ export function Materiais() {
             className="w-[380px] h-[420px] object-cover"
           />
           <p className="text-wht text-lg mb-8 font-lexend font-bold">
-            Sensor: Dispositivo para detectar e medir variáveis ambientais.
+            Sensor: Dispositivo para detectar e medir variáveis ambientais. <br /> R$ 2.99
           </p>
         </div>
       </div>

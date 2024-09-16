@@ -1,9 +1,9 @@
 export function Bibliografia() {
   return (
-    <div className="flex flex-col items-center w-screen h-screen bg-blu">
-      <h1 className="text-wht text-3xl mb-20 mt-11 font-lexend font-bold">BIBLIOGRAFIA</h1>
+    <div className="max-lg:max-w-500 flex flex-col items-center w-screen bg-blu">
+      <h1 className="text-wht text-4xl mb-20 mt-11 font-lexend font-bold ">BIBLIOGRAFIA</h1>
       <section>
-        <h2 className="text-wht text-center font-lexend text-lg">É importante considerar que a ciência afirma que gatos são <br />
+        <h2 className="text-wht text-center font-lexend text-lg -mt-16 ">É importante considerar que a ciência afirma que gatos são <br />
            pré-dispostos a terem doenças renais e urinárias, por terem <br />
            a urina muito concentrada devido ás baixas tendências de <br />
            tomarem água. <br /> É comum que gatos domésticos possuírem doenças renais. <br />
