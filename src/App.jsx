@@ -5,7 +5,10 @@ import { Funcionamento } from "./pages/Funcionamento"
 import { Materiais } from "./pages/Materiais"
 import { Bibliografia } from "./pages/Bibliografia"
 import { Sobre } from "./pages/Sobre"
+import { Jogo } from "./pages/Jogo"
 import { Header } from "./Header"
+
+
 
 const router = createBrowserRouter([
   {
@@ -27,7 +30,12 @@ const router = createBrowserRouter([
   {
     path: "/sobre",
     element: <Sobre />
+  },
+  {
+    path: "jogo",
+    element: <Jogo />
   }
+  
 ])
 
 export function App() {

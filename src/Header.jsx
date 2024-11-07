@@ -12,6 +12,7 @@ export function Header() {
         <a href="/Materiais"  className="rounded-lg bg-but text-white max-lg:w-full h-8 w-[120px] font-lexand font-bold">Materiais</a>
         <a href="/Bibliografia"  className="rounded-lg bg-but text-white max-lg:w-full h-8 w-[120px] font-lexand font-bold">Bibliografia</a>
         <a href="/Sobre"  className="rounded-lg bg-but text-white max-lg:w-full h-8 w-[120px] font-lexand font-bold">Sobre nós</a>
+        <a href="/Jogo"  className="rounded-lg bg-but text-white max-lg:w-full h-8 w-[120px] font-lexand font-bold">Jogos</a>
       </div>
     </header>
     
