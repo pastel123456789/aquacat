@@ -5,7 +5,8 @@ export function Sobre() {
   return (
     <div className="flex flex-col items-center w-screen h-screen bg-blu p-8">
       <h1 className="text-wht text-4xl mb-8 font-lexend font-bold">SOBRE NÓS</h1>
-      <section className="flex max-lg:flex-col items-center gap-8 mt-10" >
+      <section className="" >
+        <div className='flex gap-10 mb-8'>
         <img
           src={M}
           alt="Miguel"
@@ -16,6 +17,7 @@ export function Sobre() {
           alt="Kauan"
           className="w-[200px] h-[200px] object-cover rounded-full border-4 border-white shadow-lg mr-70"
         />
+        </div>
         <p className="text-wht text-lg font-lexend">
         Somos Miguel e Kauan, alunos do ensino <br />
         Médio técnico em Informática no colégio <br />

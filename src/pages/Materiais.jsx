@@ -1,9 +1,11 @@
-import A from '../assets/ard.png';
-import Ba from '../assets/bat.png';
-import Bo from '../assets/bom.png';
-import F from '../assets/fio.png';
-import P from '../assets/prot.png';
-import S from '../assets/sens.png';
+import Ba from '../assets/BATERIA.png';
+import ARD from '../assets/ARD.png';
+import B from '../assets/BOMBA.png';
+import F from '../assets/5.png';
+import P from '../assets/proto.png';
+import U from '../assets/ULT.png';
+import H from '../assets/6.png';
+import T from '../assets/temp.png';
 
 export function Materiais() {
   return (
@@ -12,9 +14,9 @@ export function Materiais() {
       <div className="flex flex-col space-y-8 w-full max-w-screen-lg">
         <div className="flex items-center space-x-4">
           <img
-            src={Bo}
+            src={ARD}
             alt="Placa Arduino"
-            className="max-lg:w-[80px] max-lg:h-[50px] w-[320px] h-[200px] object-cover"
+            className="w-[250px] h-[250px] object-cover rounded-lg"
           />
           <p className="text-wht text-lg font-lexend font-bold">
           Bomba de Água: Componente que movimenta a água no sistema. <br /> R$ 40.00
@@ -24,7 +26,7 @@ export function Materiais() {
           <img
             src={Ba}
             alt="Bateria"
-            className="w-[370px] h-[410px] object-cover"
+            className="w-[250px] h-[250px] object-cover rounded-lg"
           />
           <p className="text-wht text-lg font-lexend font-bold">
             Bateria: Fonte de energia para alimentar o circuito. <br /> R$ 39.99
@@ -32,9 +34,9 @@ export function Materiais() {
         </div>
         <div className="flex items-center space-x-4">
           <img
-            src={A}
+            src={B}
             alt="Bomba de água"
-            className="w-[370px] h-[400px] object-cover"
+            className="w-[250px] h-[250px] object-cover rounded-lg"
           />
           <p className="text-wht text-lg font-lexend font-bold">
           Placa Arduino: Um microcontrolador usado para prototipagem eletrônica. <br /> R$ 90.00
@@ -45,7 +47,7 @@ export function Materiais() {
           <img
             src={F}
             alt="Fio"
-            className="w-[380px] h-[420px] object-cover"
+            className="w-[250px] h-[250px] object-cover rounded-lg"
           />
           <p className="text-wht text-lg font-lexend font-bold">
             Fio: Conecta os diferentes componentes do circuito. <br /> R$ 1.99
@@ -55,7 +57,7 @@ export function Materiais() {
           <img
             src={P}
             alt="Protoboard"
-            className="w-[380px] h-[420px] object-cover"
+            className="w-[250px] h-[250px] object-cover rounded-lg"
           />
           <p className="text-wht text-lg font-lexend font-bold">
             Protoboard: Placa de ensaio para montar circuitos eletrônicos. <br /> R$ 10.00
@@ -63,12 +65,32 @@ export function Materiais() {
         </div>
         <div className="flex items-center space-x-4">
           <img
-            src={S}
+            src={U}
             alt="Sensor"
-            className="w-[380px] h-[420px] object-cover"
+            className="w-[250px] h-[250px] object-cover rounded-lg"
           />
           <p className="text-wht text-lg mb-8 font-lexend font-bold">
             Sensor: Dispositivo para detectar e medir variáveis ambientais. <br /> R$ 2.99
+          </p>
+        </div>
+        <div className="flex items-center space-x-4">
+        <img
+            src={H}
+            alt="hC05"
+            className="w-[250px] h-[250px] object-cover rounded-lg"
+          />
+          <p className="text-wht text-lg mb-8 font-lexend font-bold">
+          Módulo Bluetooth HC-05: Este módulo bluetooth HC-05 oferece uma forma fácil e barata de comunicação com seu projeto <br /> R$ 39.90
+          </p>
+        </div>
+        <div className="flex items-center space-x-4">
+        <img
+            src={T}
+            alt="Sensor temperatura"
+            className="w-[250px] h-[250px] object-cover rounded-lg"
+          />
+          <p className="text-wht text-lg mb-8 font-lexend font-bold">
+          Sensor de temperatura DS18B20 - À Prova de Água: Este sensor é indicado para aplicações onde é necessário medir a temperatura a uma longa distância do microcontrolador ou em ambientes úmidos. <br /> R$ 39.90
           </p>
         </div>
       </div>
