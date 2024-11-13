@@ -70,7 +70,7 @@ export function Materiais() {
             className="w-[250px] h-[250px] object-cover rounded-lg"
           />
           <p className="text-wht text-lg mb-8 font-lexend font-bold">
-            Sensor: Dispositivo para detectar e medir variáveis ambientais. <br /> R$ 2.99
+            Sensor ultrassônico: Dispositivo para detectar e medir variáveis ambientais. <br /> R$ 2.99
           </p>
         </div>
         <div className="flex items-center space-x-4">

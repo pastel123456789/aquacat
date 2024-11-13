@@ -1,4 +1,4 @@
-import beb from '../assets/be.png';
+
 
 export function Funcionamento() {
   return (
@@ -6,10 +6,16 @@ export function Funcionamento() {
       <h1 className="text-wht text-4xl mb-20 mt-11 font-lexend font-bold">Funcionamento</h1>
       <div className='flex justify-center'>
         <section className="flex flex-col items-center justify-center">
-          <img 
-            src={beb} 
-            alt="Bebedouro automático" 
-            className="max-lg:w-50 max-lg:h-50 max-w-sm h-96 object-cover mb-11 rounded-lg" 
+          {/* Substituindo a imagem por um iframe */}
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/uL-nnhk1emY" 
+            title="Funcionamento do Bebedouro Automático"
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowFullScreen
+            className="mb-11 rounded-lg"
           />
           
           <h2 className="max-w-screen-sm ml-4 text-wht bg-extend-fontFamily-coco-b font-lexend text-lg -mt-10">
