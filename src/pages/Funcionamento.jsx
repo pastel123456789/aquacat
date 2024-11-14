@@ -8,7 +8,7 @@ export function Funcionamento() {
         <section className="flex flex-col items-center justify-center">
           {/* Substituindo a imagem por um iframe */}
           <iframe 
-            width="560" 
+            width="" 
             height="315" 
             src="https://www.youtube.com/embed/uL-nnhk1emY" 
             title="Funcionamento do Bebedouro Automático"

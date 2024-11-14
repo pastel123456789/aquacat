@@ -29,7 +29,7 @@ export function Header() {
           </button>
         </div>
 
-        <nav className={`bg-but text-wht flex flex-col w-60 h-screen text-center gap-5 fixed right-${abrirMenu === true ? "0" : "[-15rem]"} transition-all delay-150`}>
+        <nav className={`bg-but text-wht flex flex-col w-60 h-screen text-center gap-5 fixed ${abrirMenu === true ? "right-0" : "-right-60"} transition-all delay-150`}>
           <a href="/" >Início</a>
           <a href="/Funcionamento"  >Funcionamento</a>
           <a href="/Materiais"  >Materiais</a>

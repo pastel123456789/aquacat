@@ -7,7 +7,7 @@ export function Jogo() {
       
       
         <iframe
-          width="660"
+          width=""
           height="415"
           src="https://www.youtube.com/embed/ORjywQD5toM" 
           title="Escape with Cat - Jogo"
